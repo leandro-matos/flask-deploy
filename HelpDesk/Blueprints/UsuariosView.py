@@ -3,7 +3,7 @@
 from flask import Blueprint,jsonify,request
 from Models.Model import db,Usuarios
 
-usuarios = Blueprint('usuarios',__name__)
+usuarios = Blueprint('usuarios',__name__, template_folder='../templates', static_folder='../static')
 
 @usuarios.route("/usuarios/")
 def usuarios_listar():
