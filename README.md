@@ -1,7 +1,8 @@
 ## Este projeto foi feito com:
 
-* [Python 3.8.9](https://www.python.org/)
-* [Django 3.2](https://www.djangoproject.com/)
+* [flask](https://flask.palletsprojects.com/en/1.1.x/)
+* [pymongo](https://pymongo.readthedocs.io/en/stable/)
+* [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
 
 ## Como rodar o projeto?
 
@@ -9,14 +10,4 @@
 * Crie um virtualenv com Python 3.
 * Ative o virtualenv.
 * Instale as dependências.
-* Rode as migrações.
-
-```
-git clone https://github.com/rg3915/django-cbv-tutorial.git
-cd django-cbv-tutorial
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python contrib/env_gen.py
-python manage.py migrate
-```
+* Rode o run.py
